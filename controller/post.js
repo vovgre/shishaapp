@@ -4,9 +4,9 @@ var config = require('../config/settings'),
 var multipart = require('connect-multiparty')();
 
 cloudinary.config({
-     'cloud_name': 'dri4jrgkf',
-    'api_key': '144571544352698',
-    'api_secret': 'F7TmkfVmtK77zGwRPK_-WBqOMFI'
+    cloud_name: config.cloud_name,
+    api_key: config.api_key,
+    api_secret: config.api_secret
 });
 
 
