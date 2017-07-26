@@ -1,7 +1,7 @@
 module.exports = {
     'serverPort':5000,
-    'dbUrl':'url-to-your-mongodb',
-    'cloud_name': 'cloudinary-cloud-name',
-    'api_key': 'cloudinary-api-key',
-    'api_secret': 'cloudinary-api-secret'
+    'dbUrl':'mongodb://<vovgre:<vovgre>@ds123933.mlab.com:23933/imgupload',
+    'cloud_name': 'dri4jrgkf',
+    'api_key': '144571544352698',
+    'api_secret': 'F7TmkfVmtK77zGwRPK_-WBqOMFI'
 }
